@@ -174,7 +174,7 @@ p {
 	margin: 0 0 2rem 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
 	color: #ffffff;
 	font-weight: 600;
 	line-height: 1.5;
@@ -199,9 +199,15 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 h1 {
-	font-size: 2.25rem;
+	font-size: 1.90rem;
+	font-weight: normal;
 	line-height: 1.3;
 	letter-spacing: 0.5rem;
+}
+
+h1 span {
+	font-size: 2.35rem;
+	font-weight: bold;
 }
 
 h2 {
