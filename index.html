@@ -11,7 +11,7 @@
 	-->
 	<head>
 		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>ようこそ!</title>
+		<title>Welcome to my website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
@@ -19,6 +19,7 @@
 			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
 			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
 		-->
+		<link rel="shortcut icon" type="image/jpg" href="images/icon.jpg">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
 			will load a separate set of CSS stylings from the file assets/css/noscript.css
@@ -40,7 +41,7 @@
 							<div class="inner">
 								<!-- Here is a heading where you can put your name -->
 								<h1>
-									Kim Edrian Binasoy
+									<span>K</span>im <span>Ed</span>rian <span>Bin</span>asoy
 								</h1>
 								<!-- 	Here is an image where you can put a picture of you. 
 									You can change the width and height attributes below to change how large
@@ -48,53 +49,53 @@
 
 									Try adding "border-radius: 50%;" to the style attribute.
 								-->
-								<img src="images/Me.jpg" style="width:280px; height:280px; object-fit: cover;border-radius: 80%">
+								<img src="images/profile.jpg" style="width:280px; height:280px; object-fit: cover;border-radius: 50%">
 								<!-- 	Here is a paragraph where you can put your position and institution, or
 									a short line about yourself.
 								-->
 								<p>
-									A self concious dust <br> On top of a space rock
+									Tech Enthusiast <br> Aspiring Developer
 								</p>
 								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p>
-									<!-- Note you will want to change where this points to! 
-									<a href="images/Astronomy.jpg" target="_blank">Curriculum Vitae</a> -->
-									<a href="https://kedbin.github.io/EndlessCorrection">Endless Correction</a>
-								</p>
+								<!-- <p>
+									<.!-- Note you will want to change where this points to! 
+									<a href="images/Astronomy.jpg" target="_blank">Curriculum Vitae</a> --.>
+									<a href="images/Resume.jpg">My CV</a>
+								</p> -->
 							</div>
 						</div>
 						<!-- This is the navigation menu -->
 						
-<!--						 <nav>
-							<!-- This element makes an "Unordered List" --.>
+						 <nav>
+							<!-- This element makes an "Unordered List" -->
 							<ul>
 								
-								<!-- This is a "List Item" --.>
-								
+								<!-- This is a "List Item" -->
+							
 								<li>
 									<!-- 	Note that this links to #about, which will move the page to wherever
 										the element with the id "about" exists.
-									--.>
+									-->
 									<a href="#about">About Me</a>
 								</li>
-								<li>
+								<!--<li>
 									<a href="#research">Research</a>
 								</li>
 								<li>
 									<a href="#community">Community</a>
-								</li>
+								</li> -->
 								<li>
 									<a href="#contact">Contact</a>
 								</li>
 								<!-- 	You can add another button to your navigation menu by adding
 									another List Item with a link inside of it.
 								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> --.>
+								 <li>
+									<a href="images/Resume.jpg">My CV</a>
+								</li>
 							</ul>
 						</nav>
--->				
+			
 					</header>
 
 					<!-- These are the "cards" that appear when you click the buttons on the main page -->
@@ -104,20 +105,31 @@
 						-->
 						<article id="about">
 							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
+							<p> Hello and welcome to my website.</p>
+							<p> To give a brief introduction about myself:<br>
+							I am a highly motivated individual, with a deep passion for technology.<br>
+							Having spent most of my life tinkering and playing with computers,
+							my ultimate goal is to create something that would be immensely useful to others. <br>
+						</p>
+						<!--
+						<#!-- Here is an image that you can customize for this page --.>
 							<span class="image main">
 								<img src="images/pic01.jpg" alt=""/>
-							</span>
+							</span> -->
 							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
 								<!-- Items contained in <b> tags are bolded! -->
-								<b>Education:</b>
+								<b>Education:</b> Bachelor of Science in Medical Technology
 							</p>
 							<p>
-								<b>Research Interests:</b>
+								<b>Interests:  </b>Reading, Programming, Website Building, Self-Improvement
 							</p>
 							<p>
-								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/">Include ADS link!</a>
+								<b>Notable Achievements & Certificates:</b><br> Built this website, Created python script to find coupons (Staples), <br>
+								Set up a custom e-mail domain(hello@kedbin.ca) <br>
+								Certified by Google and Microsoft in "Technical Support Fundamentals" and "Azure Fundamentals (AZ-900)", respectively.
+
+
 							</p>
 						</article>
 
@@ -159,10 +171,10 @@
 						<article id="contact">
 							<h2 class="major">Contact</h2>
 							<p> 
-								<b>Email:</b> 
+								<b>Email:</b> hello@kedbin.ca
 							</p>
 							<p> 
-								<b>Address:</b> 
+								<b>Address:</b> Scarborough, Ontario, Canada
 							</p>
 
 							<!-- 	Here are the fancy icons that link to your social media.
@@ -170,22 +182,22 @@
 								here: https://fontawesome.com/icons
 							-->
 							<ul class="icons">
-								<!-- The Twitter icon -->
+								<!-- The Linkedin icon -->
 								<li>
 									<!-- 	Note that you need to change the link to point to your page.
 										Replace "#" with your Twitter profile page.
 									-->
-									<a href="#" class="icon fa-twitter">
-										<span class="label">Twitter</span>
+									<a href="https://www.linkedin.com/in/kedbin/" class="icon fa-linkedin">
+										<span class="label">LinkedIn</span>
 									</a>
 								</li>
 								<!-- The Facebook icon -->
-								<li>
+								<!--<li>
 									<a href="#" class="icon fa-facebook">
 										<span class="label">Facebook</span>
 									</a>
 								</li>
-								<!-- The Instagram icon -->
+								<!-- The Instagram icon --.>
 								<li>
 									<a href="#" class="icon fa-instagram">
 										<span class="label">Instagram</span>
@@ -193,7 +205,7 @@
 								</li>
 								<!-- The GitHub icon -->
 								<li>
-									<a href="#" class="icon fa-github">
+									<a href="https://github.com/kedbin" class="icon fa-github">
 										<span class="label">GitHub</span>
 									</a>
 								</li>
